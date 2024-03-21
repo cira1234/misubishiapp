@@ -98,7 +98,7 @@ class CreatePost extends Component
 
     
     public function delete($id) {
-        cars::find($id)->delete('id');
+        User::find($id)->delete('id');
     }
 
     
