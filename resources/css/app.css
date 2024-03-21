@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+[x-cloak] {
+    display: none;
+}
+
+.containerford{
+    margin-top: 40px;
+    margin-left: 100px;
+    margin-right: 50px;
+    
+}
+
+.imgcar {
+    margin-left: 1000px;
+    transition: margin-left 3s ease; /* Apply transition to margin-left property */
+}
+
+.animate {
+    margin-left: 0px;
+}
+.road{
+    background-color: black;
+    width: 1400px;
+    height: 20px;
+}
+
+.box{
+
+    display: flex;
+}
+/* .containercard1{
+    margin-left: 0px;
+} */
+
+a {
+    text-decoration: none; /* Remove default underline */
+}
+
+
+
+
+
+
